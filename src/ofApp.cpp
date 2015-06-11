@@ -52,12 +52,11 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    mouse_pressed = true;
-}
+    }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    mouse_pressed = false;
+    
 }
 
 //--------------------------------------------------------------
@@ -72,12 +71,12 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
+    mouse_pressed = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    mouse_pressed = false;
 }
 
 //--------------------------------------------------------------
